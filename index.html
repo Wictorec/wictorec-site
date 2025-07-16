@@ -1,26 +1,131 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wictorec Studio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WictoreC — Побудь со мной...</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f3f3f3;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
       color: #333;
     }
-    p {
+    header {
+      background-color: #a7c7e7;
+      text-align: center;
+      color: white;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 20px;
+      font-style: italic;
+    }
+    nav {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
       color: #666;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      width: 300px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Добро пожаловать в фотостудию Wictorec</h1>
-  <p>Скоро здесь появится сайт. Следите за обновлениями!</p>
+
+<header>
+  <h1>WictoreC</h1>
+  <p>Побудь со мной...</p>
+</header>
+
+<nav>
+  <a href="#gallery">Фото</a>
+  <a href="#travel">Путешествие</a>
+  <a href="#museum">Музей</a>
+  <a href="#theatre">Театр</a>
+  <a href="#poetry">Стихи</a>
+  <a href="#ai">ИИ-творчество</a>
+  <a href="#contact">Напиши мне</a>
+</nav>
+
+<section id="gallery">
+  <h2>Фото</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200?text=Фото1" alt="Фото 1">
+    <img src="https://via.placeholder.com/300x200?text=Фото2" alt="Фото 2">
+    <img src="https://via.placeholder.com/300x200?text=Фото3" alt="Фото 3">
+  </div>
+</section>
+
+<section id="travel">
+  <h2>Путешествие</h2>
+  <p>Здесь будут рассказы и фото из моих путешествий.</p>
+</section>
+
+<section id="museum">
+  <h2>Музей</h2>
+  <p>Фрагменты и впечатления от посещения музеев.</p>
+</section>
+
+<section id="theatre">
+  <h2>Театр</h2>
+  <p>Эмоции, сцены, наблюдения — театр как часть жизни.</p>
+</section>
+
+<section id="poetry">
+  <h2>Стихи</h2>
+  <p>Слова, собранные в тишине. Мои или любимые.</p>
+</section>
+
+<section id="ai">
+  <h2>ИИ-творчество</h2>
+  <p>Эксперименты с нейросетями: изображения, тексты, образы.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Напиши мне</h2>
+  <p>📱 <a href="tel:+79154230779">+7 915 423 0779</a><br>
+     💬 <a href="https://t.me/WictoREC">@WictoREC</a></p>
+</section>
+
+<footer>
+  &copy; 2025 WictoreC. Все права защищены.
+</footer>
+
 </body>
 </html>
